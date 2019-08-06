@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/clint/clint.iml" filepath="$PROJECT_DIR$/clint/clint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consumer/consumer.iml" filepath="$PROJECT_DIR$/consumer/consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jt/jt.iml" filepath="$PROJECT_DIR$/jt/jt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sidecar/sidecar.iml" filepath="$PROJECT_DIR$/sidecar/sidecar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springCloud/springCloud.iml" filepath="$PROJECT_DIR$/springCloud/springCloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springCloud-all.iml" filepath="$PROJECT_DIR$/.idea/springCloud-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />
+    </modules>
+  </component>
+</project>

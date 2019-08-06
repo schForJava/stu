@@ -1,0 +1,24 @@
+server:
+  port: 8050
+
+spring:
+  application:
+    name: jt-zuul
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://user:password123@localhost:8761/eureka
+
+logging:
+  level:
+    root: INFO
+
+zuul:
+  routes:
+    app-user:
+      path: /user/**
+      serviceId: consumer-Hystrix
+    app-sidecar:
+      path: /sidecar/**
+      serviceId:  provider-sidecar
